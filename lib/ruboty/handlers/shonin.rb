@@ -1,6 +1,6 @@
 module Ruboty
   module Handlers
-    class Tiqav < Base
+    class Shonin < Base
       SHONINS = [
       '最高!!!!フゥ〜〜〜〜〜!!!!',
       'お疲れ様です!!!!飲みましょう!!!!:beers:',
