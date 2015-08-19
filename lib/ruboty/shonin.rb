@@ -1,7 +1,4 @@
-require "ruboty/shonin/version"
+require 'ruboty'
+require 'ruboty/shonin/version'
+require 'ruboty/handlers/shonin'
 
-module Ruboty
-  module Shonin
-    # Your code goes here...
-  end
-end
