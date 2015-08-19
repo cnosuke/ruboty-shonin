@@ -14,7 +14,7 @@ module Ruboty
       'きてるぅ〜〜〜〜〜〜〜↑↑',
     ]
 
-      on /shonin( me)? ?(?<whom>.+)?/, name: 'shonin', description: 'Give someone Shonin'
+      on /(shonin|承認)( me)? ?(?<whom>.+)?/, name: 'shonin', description: 'Give someone Shonin'
 
       def shonin(message = {})
         whom = message[:whom]
